@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <nav>Navbar</nav>
-      <main className="min-h-screen">
+      <main className="min-h-screen max-w-screen-2x1 mx-auto px-4 py-6 fontFamily-primary">
         <Outlet />
       </main>
 
